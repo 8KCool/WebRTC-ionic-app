@@ -575,14 +575,13 @@ The output can be copied into the README file.
 
 ## Developed By
 
-* Russell Wenban
+* 8KLancer
 
 
 ## License
 
-The MIT License (MIT)
 
-Copyright (c) 2015 Russell Wenban - Factornine Ltd
+Copyright (c) 2015 8KLancer - Factornine Ltd
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
