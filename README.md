@@ -51,7 +51,6 @@ The current version of the app is:
 
 The motivation for the project is get a basic mobile app using Web Real-Time Communications (RTC).
 
-I'm using the [phonertc](https://github.com/alongubkin/phonertc) cordova plugin
 
 
 ## Installation
@@ -165,7 +164,6 @@ I'm using Xcode rather than the Gulp or Ionic commands to deploy the app at the 
 
 I had an issue where the _.../Plugins/_ folder was empty after a build.
 
-The post [Third Party Plugins Don’t Install Correctly (Fails on Build)](http://forum.ionicframework.com/t/third-party-plugins-dont-install-correctly-fails-on-build/7585) gave me a solution:
 
 ```
 $ ionic platform rm ios
@@ -180,7 +178,6 @@ This installed all the required plugins including the _Bridging-Header.h_ file w
 
 I've spent considerable effort making the gulp tasks as modular as possible. Each task is within its own file and I'm using [require-dir](https://www.npmjs.com/package/require-dir) to keep the tasks DRY.
 
-I've added a new set of commands based from [ionic-gulp-seed](https://github.com/tmaximini/ionic-gulp-seed).
 
 In the original Ionic app, source files were located in the _www_ folder. I've separated the `dev` and `build` modes, so that the source files are within an _app_ folder. Gulp tasks have been set up to either test with a _.tmp_ location or distribute from the _www_ location.
 
